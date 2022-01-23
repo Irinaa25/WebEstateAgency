@@ -1,0 +1,40 @@
+﻿@using Business.Interop.Data;
+@model EstateDto
+
+@{
+    ViewData["Title"] = "Информация о объекте недвижимости";
+}
+<!DOCTYPE html>
+
+<html>
+<body>
+    @{
+        <table class="table">
+                <tr>
+                    <th>Название</th>
+                    <th>Тип недвижимости</th>
+                    <th>Клиент</th>
+                    <th>Цена</th>
+                    <th>Площадь</th>
+                    <th>Год постройки</th>
+                    <th>Количество комнат</th>
+                    <th>Количество этажей</th>
+                    <th>Улица</th>
+                </tr>
+                <tr>
+                    <td>@Model.Name</td>
+                    <td>@Model.EstateType.Name</td>
+                    <td>@Model.Client.FullName</td>
+                    <td>@Model.Price</td>
+                    <td>@Model.Area</td>
+                    <td>@Model.YearOfConsruction</td>
+                    <td>@Model.RoomsCount</td>
+                    <td>@Model.FloorsCount</td>
+                    <td>@Model.Street.Name</td>
+                </tr>
+        </table>
+        <p><a asp-controller="Estate" asp-action="Create" asp-route-id="@Model.Id">Редактировать</a></p>
+        <p><a asp-controller="Estate" asp-action="Index" asp-route-id="@Model.Id">Вернуться к списку недвижимости</a></p>
+    }
+</body>
+</html>

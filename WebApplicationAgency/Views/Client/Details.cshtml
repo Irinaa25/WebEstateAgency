@@ -1,0 +1,40 @@
+﻿@using Business.Interop.Data;
+@model ClientDto
+
+@{
+    ViewData["Title"] = "Информация о клиенте";
+}
+<!DOCTYPE html>
+
+<html>
+<body>
+    @{
+        <table class="table">
+                <tr>
+                    <th>ФИО клиента</th>
+                    <th>Телефон</th>
+                    <th>Имущество</th>
+                </tr>
+            <tr>
+                <th>@Model.FullName</th>
+                <th>@Model.Phone</th>
+                 @if(!Model.Estates.Any())
+                {
+                <td>Нет недвижимости</td>
+                }
+                else
+                {
+                <td>
+                    @foreach(var estate in Model.Estates)
+                    {
+                    @estate.Name<br />
+                    }
+                </td>
+                }
+            </tr>
+        </table>
+        <p><a asp-controller="Client" asp-action="Create" asp-route-id="@Model.Id">Редактировать</a></p>
+        <p><a asp-controller="Client" asp-action="Index" asp-route-id="@Model.Id">Вернуться к списку клиентов</a></p>
+    }
+</body>
+</html>

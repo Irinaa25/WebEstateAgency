@@ -1,0 +1,100 @@
+﻿@model Business.Interop.Data.EstateDto
+
+@{
+    ViewData["Title"] = "Добавление объекта недвижимости";
+}
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <h4>Создание объекта недвижимости</h4>
+    <form asp-controller="Estate" asp-action="Create" method="post">
+        @if (Model != null)
+        {
+            <input type="hidden" name="Id" value="@Model.Id"></input>
+        }
+    <table class="table">
+        <tr>
+            <td>Название:</td>
+            <td><input type="text" required name="Name" value="@Model?.Name" /></td>
+        </tr>
+        <tr>
+            <td>Тип недвижимости:</td>
+            <td><select name="EstateTypeId" required>
+                @foreach(var estateType in ViewBag.EstateTypes)
+                {
+                if (Model?.EstateType.Id == estateType.Id)
+                {
+                <option value="@estateType.Id" selected>@estateType.Name</option>
+                }
+                else
+                {
+                <option value="@estateType.Id">@estateType.Name</option>
+                }
+                }
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Клиент:</td>
+            <td>
+                <select name="ClientId" required>
+                    @foreach (var client in ViewBag.Clients)
+                    {
+                        if (Model?.Client.Id == client.Id)
+                        {
+                            <option value="@client.Id" selected>@client.FullName</option>
+                        }
+                        else
+                        {
+                            <option value="@client.Id">@client.FullName</option>
+                        }
+                    }
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Цена:</td>
+            <td><input type="text" required name="Price" value="@Model?.Price" /></td>
+        </tr>
+        <tr>
+            <td>Площадь:</td>
+            <td><input type="text" required name="Area" value="@Model?.Area" /></td>
+        </tr>
+        <tr>
+            <td>Год постройки:</td>
+            <td><input type="text" required name="YearOfConsruction" value="@Model?.YearOfConsruction" /></td>
+        </tr>
+        <tr>
+            <td>Количество комнат:</td>
+            <td><input type="text" required name="RoomsCount" value="@Model?.RoomsCount" /></td>
+        </tr>
+        <tr>
+            <td>Количество этажей:</td>
+            <td><input type="text" required name="FloorsCount" value="@Model?.FloorsCount" /></td>
+        </tr>
+        <tr>
+            <td>Улица:</td>
+            <td>
+                <select name="StreetId" required>
+                    @foreach (var street in ViewBag.Streets)
+                    {
+                        if (Model?.Street.Id == street.Id)
+                        {
+                            <option value="@street.Id" selected>@street.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@street.Id">@street.Name</option>
+                        }
+                    }
+                </select>
+            </td>
+        </tr>
+
+    </table>
+        <input type="submit" value="Создать" />
+    </form>
+</body>
+</html>

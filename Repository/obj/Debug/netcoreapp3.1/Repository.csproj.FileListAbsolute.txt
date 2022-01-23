@@ -1,0 +1,48 @@
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.Interop.dll
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.Interop.pdb
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.json
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.dev.json
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Ирина\source\repos\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.json
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.dev.json
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.Interop.dll
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.Interop.pdb
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.AssemblyReference.cache
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\sergr\Desktop\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.genruntimeconfig.cache
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.json
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.dev.json
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.Interop.dll
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\bin\Debug\netcoreapp3.1\Business.Interop.pdb
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Repository\obj\Debug\netcoreapp3.1\Repository.pdb

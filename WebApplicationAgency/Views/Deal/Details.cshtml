@@ -1,0 +1,30 @@
+﻿@using Business.Interop.Data;
+@model DealDto
+
+@{
+    ViewData["Title"] = "Информация о сделке";
+}
+<!DOCTYPE html>
+
+<html>
+<body>
+    @{
+        <table class="table">
+            <tr>
+                <th>ФИО клиента</th>
+                <th>ФИО риелтора</th>
+                <th>Дата сделки</th>
+                <th>Сумма</th>
+            </tr>
+            <tr>
+                <th>@Model.Client.FullName</th>
+                <th>@Model.Realtor.FullName</th>
+                <th>@Model.Date</th>
+                <th>@Model.Sum</th>
+            </tr>
+        </table>
+        <p><a asp-controller="Deal" asp-action="Create" asp-route-id="@Model.Id">Редактировать</a></p>
+        <p><a asp-controller="Deal" asp-action="Index" asp-route-id="@Model.Id">Вернуться к списку сделок</a></p>
+    }
+</body>
+</html>

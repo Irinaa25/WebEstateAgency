@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Business.Interop.Data.DealDto>
+
+@{
+    ViewData["Title"] = "Сделки";
+}
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <table class="table">
+        <tr>
+            <th>Дата сделки</th>
+            <th>Сумма</th>
+        </tr>
+        @foreach(var deal in Model)
+        {
+        <tr>
+            <td>@deal.Date</td>
+            <td>@deal.Sum</td>
+            <td><a asp-controller="Deal" asp-action="Details" asp-route-id="@deal.Id">Подробности</a></td>
+            <td><a asp-controller="Deal" asp-action="Delete" asp-route-id="@deal.Id">Удалить</a> </td>
+        </tr>
+        }
+    </table>
+    <br />
+    <p><a asp-controller="Deal" asp-action="Create">Создать</a></p>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Business.Interop.Data.RealtorDto>
+
+@{
+    ViewData["Title"] = "Риэлторы";
+}
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <table class="table">
+        <tr>
+            <th>ФИО риэлтора</th>
+            <th>Телефон</th>
+            <th>Опыт работы</th>
+        </tr>
+        @foreach(var realtor in Model)
+        {
+    <tr>
+        <td>@realtor.FullName</td>
+        <td>@realtor.Phone</td>
+        <td>@realtor.Experience</td>
+        <td><a asp-controller="Realtor" asp-action="Details" asp-route-id="@realtor.Id">Подробности</a></td>
+        <td><a asp-controller="Realtor" asp-action="Delete" asp-route-id="@realtor.Id">Удалить</a> </td>
+    </tr>
+        }
+    </table>
+    <br />
+    <p><a asp-controller="Realtor" asp-action="Create">Создать</a></p>
+</body>
+</html>

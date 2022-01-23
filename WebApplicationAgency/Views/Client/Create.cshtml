@@ -1,0 +1,31 @@
+﻿@model Business.Interop.Data.ClientDto
+
+@{
+    ViewData["Title"] = "Добавление клиента";
+}
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <h4>Создание клиента</h4>
+    <form asp-controller="Client" asp-action="Create" method="post">
+        @if(Model != null)
+        {
+        <input type="hidden" name="Id" value="@Model.Id"></input>
+        }
+        <table class="table">
+            <tr>
+                <td>ФИО клиента:</td>
+                <td><input type="text" required name="FullName" value="@Model?.FullName" /></td>
+            </tr>
+            <tr>
+                <td>Телефон:</td>
+                <td><input type="text" required name="Phone" value="@Model?.Phone" /></td>
+            </tr>
+           
+        </table>
+        <input type="submit" value="Создать" />
+    </form>
+</body>
+</html>

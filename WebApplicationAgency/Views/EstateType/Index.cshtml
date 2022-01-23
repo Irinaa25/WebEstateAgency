@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Business.Interop.Data.EstateTypeDto>
+
+@{
+    ViewData["Title"] = "Типы недвижимости";
+}
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <table class="table">
+        <tr>
+            <th>Название</th>
+        </tr>
+        @foreach (var estateType in Model)
+        {
+            <tr>
+                <td>@estateType.Name</td>            
+                <td><a asp-controller="EstateType" asp-action="Details" asp-route-id="@estateType.Id">Подробности</a></td>
+                <td><a asp-controller="EstateType" asp-action="Delete" asp-route-id="@estateType.Id">Удалить</a> </td>
+            </tr>
+        }
+    </table>
+    <br />
+    <p><a asp-controller="EstateType" asp-action="Create">Создать</a></p>
+</body>
+</html>

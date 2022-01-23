@@ -1,0 +1,42 @@
+﻿@using Business.Interop.Data;
+@model RealtorDto
+
+@{
+    ViewData["Title"] = "Информация о риэлторе";
+}
+<!DOCTYPE html>
+
+<html>
+<body>
+    @{
+        <table class="table">
+                <tr>
+                    <th>ФИО клиента</th>
+                    <th>Телефон</th>
+                    <th>Опыт работы</th>
+                    <th>Сумма сделки</th>
+                </tr>
+                <tr>
+                    <th>@Model.FullName</th>
+                    <th>@Model.Phone</th>
+                    <th>@Model.Experience</th>
+                    @if(!Model.Deals.Any())
+                    {
+                    <td>Нет сделок</td>
+                    }
+                    else
+                    {
+                    <td>
+                        @foreach (var deal in Model.Deals)
+                        {
+                            @deal.Sum<br />
+                        }
+                    </td>
+                    }
+                </tr>
+        </table>
+        <p><a asp-controller="Realtor" asp-action="Create" asp-route-id="@Model.Id">Редактировать</a></p>
+        <p><a asp-controller="Realtor" asp-action="Index" asp-route-id="@Model.Id">Вернуться к списку клиентов</a></p>
+    }
+</body>
+</html>

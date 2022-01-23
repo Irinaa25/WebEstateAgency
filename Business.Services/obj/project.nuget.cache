@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gIKknXRRiGYvt+AHMKzbGgYAgeANerrb8lfQAGtkwlO52VkMO7eSuIFEV7i+2lz3ZfYozbOYnCrM4BKhRxatNw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sergr\\Desktop\\WebApplicationAgency\\Business.Services\\Business.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sergr\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\sergr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

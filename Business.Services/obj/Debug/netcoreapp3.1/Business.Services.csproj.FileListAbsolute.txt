@@ -1,0 +1,41 @@
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Interop.dll
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.csprojAssemblyReference.cache
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.AssemblyInfoInputs.cache
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.AssemblyInfo.cs
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Services.deps.json
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Services.dll
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Services.pdb
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Interop.pdb
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.csproj.CopyComplete
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.dll
+C:\Users\Ирина\source\repos\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.pdb
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Services.deps.json
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Services.dll
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Services.pdb
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Interop.dll
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Interop.pdb
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.csproj.AssemblyReference.cache
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.AssemblyInfoInputs.cache
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.AssemblyInfo.cs
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.csproj.CoreCompileInputs.cache
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.csproj.CopyComplete
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.dll
+C:\Users\sergr\Desktop\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.pdb
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Services.deps.json
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Services.dll
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Services.pdb
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Interop.dll
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.Interop.pdb
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.csprojAssemblyReference.cache
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.AssemblyInfoInputs.cache
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.AssemblyInfo.cs
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.csproj.CopyComplete
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.dll
+C:\Users\Ирина\OneDrive\Рабочий стол\WebApplicationAgency\Business.Services\obj\Debug\netcoreapp3.1\Business.Services.pdb

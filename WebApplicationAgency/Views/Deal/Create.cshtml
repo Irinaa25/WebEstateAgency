@@ -1,0 +1,65 @@
+﻿@model Business.Interop.Data.DealDto
+
+@{
+    ViewData["Title"] = "Добавление сделки";
+}
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <h4>Создание сделки</h4>
+    <form asp-controller="Deal" asp-action="Create" method="post">
+        @if(Model != null)
+        {
+        <input type="hidden" name="Id" value="@Model.Id"></input>
+        }
+        <table class="table">
+            <tr>
+                <td>Дата сделки:</td>
+                <td><input type="text" required name="Date" value="@Model?.Date" /></td>
+            </tr>
+            <tr>
+                <td>Сумма:</td>
+                <td><input type="text" required name="Sum" value="@Model?.Sum" /></td>
+            </tr>
+            <tr>
+                <td>Клиент:</td>
+                <td><select name="ClientId" required>
+                    @foreach(var client in ViewBag.Clients)
+                    {
+                    if (Model?.Client.Id == client.Id)
+                    {
+                    <option value="@client.Id" selected>@client.FullName</option>
+                    }
+                    else
+                    {
+                    <option value="@client.Id">@client.FullName</option>
+                    }
+                    }
+                </select>
+                </td>
+            </tr>
+             <tr>
+                <td>Риелтор:</td>
+                <td><select name="RealtorId" required>
+                    @foreach(var realtor in ViewBag.Realtors)
+                    {
+                    if (Model?.Realtor.Id == realtor.Id)
+                    {
+                    <option value="@realtor.Id" selected>@realtor.FullName</option>
+                    }
+                    else
+                    {
+                    <option value="@realtor.Id">@realtor.FullName</option>
+                    }
+                    }
+                </select>
+                </td>
+            </tr>
+           
+        </table>
+        <input type="submit" value="Создать" />
+    </form>
+</body>
+</html>

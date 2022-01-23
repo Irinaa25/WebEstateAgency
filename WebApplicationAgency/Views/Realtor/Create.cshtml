@@ -1,0 +1,35 @@
+﻿@model Business.Interop.Data.RealtorDto
+
+@{
+    ViewData["Title"] = "Добавление риэлтора";
+}
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <h4>Создание риэлтора</h4>
+    <form asp-controller="Realtor" asp-action="Create" method="post">
+        @if(Model != null)
+        {
+        <input type="hidden" name="Id" value="@Model.Id"></input>
+        }
+    <table class="table">
+        <tr>
+            <td>ФИО риэлтора:</td>
+            <td><input type="text" required name="FullName" value="@Model?.FullName" /></td>
+        </tr>
+        <tr>
+            <td>Телефон:</td>
+            <td><input type="text" required name="Phone" value="@Model?.Phone" /></td>
+        </tr>
+        <tr>
+            <td>Опыт работы:</td>
+            <td><input type="text" required name="Experience" value="@Model?.Experience" /></td>
+        </tr>
+
+    </table>
+        <input type="submit" value="Создать" />
+    </form>
+</body>
+</html>

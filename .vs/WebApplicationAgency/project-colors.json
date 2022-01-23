@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "32e91cf6-f213-449c-8011-85d7bf9b335e": {
+      "ProjectGuid": "32e91cf6-f213-449c-8011-85d7bf9b335e",
+      "DisplayName": "Repository",
+      "ColorIndex": 0
+    },
+    "ae0d251e-13e8-4649-a8c4-3ab7f5ab6a61": {
+      "ProjectGuid": "ae0d251e-13e8-4649-a8c4-3ab7f5ab6a61",
+      "DisplayName": "WebApplicationAgency",
+      "ColorIndex": 1
+    },
+    "c2877af7-c9b6-4c0f-ac98-c8b8616caef5": {
+      "ProjectGuid": "c2877af7-c9b6-4c0f-ac98-c8b8616caef5",
+      "DisplayName": "Business.Interop",
+      "ColorIndex": 2
+    },
+    "3a942669-49f7-4fd4-9a00-9c4083ce5b79": {
+      "ProjectGuid": "3a942669-49f7-4fd4-9a00-9c4083ce5b79",
+      "DisplayName": "Business",
+      "ColorIndex": 3
+    },
+    "99e9ef5a-5626-40cb-a07c-9ffbb7e269b8": {
+      "ProjectGuid": "99e9ef5a-5626-40cb-a07c-9ffbb7e269b8",
+      "DisplayName": "Business.Services",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

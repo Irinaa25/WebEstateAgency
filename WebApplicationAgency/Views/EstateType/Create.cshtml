@@ -1,0 +1,26 @@
+﻿@model Business.Interop.Data.EstateTypeDto
+
+@{
+    ViewData["Title"] = "Добавление типа недвижимости";
+}
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <h4>Создание типа недвижимости</h4>
+    <form asp-controller="EstateType" asp-action="Create" method="post">
+        @if (Model != null)
+        {
+            <input type="hidden" name="Id" value="@Model.Id"></input>
+        }
+        <table class="table">
+            <tr>
+                <td>Название:</td>
+                <td><input type="text" required name="Name" value="@Model?.Name" /></td>
+            </tr>
+        </table>
+        <input type="submit" value="Создать" />
+    </form>
+</body>
+</html>

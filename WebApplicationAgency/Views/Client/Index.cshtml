@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Business.Interop.Data.ClientDto>
+
+@{
+    ViewData["Title"] = "Клиенты";
+}
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <table class="table">
+        <tr>
+            <th>ФИО клиента</th>
+            <th>Телефон</th>
+        </tr>
+        @foreach(var client in Model)
+        {
+        <tr>
+            <td>@client.FullName</td>
+            <td>@client.Phone</td>
+            <td><a asp-controller="Client" asp-action="Details" asp-route-id="@client.Id">Подробности</a></td>
+            <td><a asp-controller="Client" asp-action="Delete" asp-route-id="@client.Id">Удалить</a> </td>
+        </tr>
+        }
+    </table>
+    <br />
+    <p><a asp-controller="Client" asp-action="Create">Создать</a></p>
+</body>
+</html>

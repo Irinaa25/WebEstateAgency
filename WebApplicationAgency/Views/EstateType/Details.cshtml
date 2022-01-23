@@ -1,0 +1,24 @@
+﻿@using Business.Interop.Data;
+@model EstateTypeDto
+
+@{
+    ViewData["Title"] = "Информация о типе недвижимости";
+}
+<!DOCTYPE html>
+
+<html>
+<body>
+    @{
+        <table class="table">
+            <tr>
+                <th>Название</th>
+            </tr>
+            <tr>
+                <th>@Model.Name</th>
+            </tr>
+        </table>
+        <p><a asp-controller="EstateType" asp-action="Create" asp-route-id="@Model.Id">Редактировать</a></p>
+        <p><a asp-controller="EstateType" asp-action="Index" asp-route-id="@Model.Id">Вернуться к списку типов недвижимости</a></p>
+    }
+</body>
+</html>
